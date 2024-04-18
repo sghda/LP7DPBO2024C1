@@ -7,7 +7,6 @@ public class App {
         frame.setSize(360,640);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
-        // frame.setVisible(true);
 
         // buat objek JPanel
         FlappyBird flappyBird = new FlappyBird();

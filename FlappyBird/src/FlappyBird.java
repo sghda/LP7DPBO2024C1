@@ -88,12 +88,9 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
         g.setColor(Color.white);
         g.setFont(new Font("Arial",Font.PLAIN, 32));
-//        if(gameOver){
-//            g.drawString("Game Over: " + String.valueOf((int)score), 10,35);
-//        }
         if(gameOver) {
             String gameOverMessageLine1 = "Game Over!";
-            String gameOverMessageLine2 = "Press R to restart";
+            String gameOverMessageLine2 = "Press R to Restart";
 
             int stringWidthLine1 = g.getFontMetrics().stringWidth(gameOverMessageLine1);
             int stringWidthLine2 = g.getFontMetrics().stringWidth(gameOverMessageLine2);
@@ -193,6 +190,4 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     public  void keyReleased(KeyEvent e){
 
     }
-
-
 }
